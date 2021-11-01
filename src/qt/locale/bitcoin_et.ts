@@ -367,11 +367,11 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and fuducoin: URIs)</source>
-        <translation>Loo maksepäring (genereerib QR koodid ja litecoini: URId)</translation>
+        <translation>Loo maksepäring (genereerib QR koodid ja fuducoini: URId)</translation>
     </message>
     <message>
         <source>Open a fuducoin: URI or payment request</source>
-        <translation>Ava litecoini: URI või maksepäring</translation>
+        <translation>Ava fuducoini: URI või maksepäring</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

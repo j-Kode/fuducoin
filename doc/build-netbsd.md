@@ -2,7 +2,7 @@ NetBSD build guide
 ======================
 (updated for NetBSD 8.0)
 
-This guide describes how to build litecoind and command-line utilities on NetBSD.
+This guide describes how to build fuducoind and command-line utilities on NetBSD.
 
 This guide does not contain instructions for building the GUI.
 

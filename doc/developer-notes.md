@@ -220,7 +220,7 @@ to see it.
 
 ### Testnet and Regtest modes
 
-Run with the `-testnet` option to run with "play litecoins" on the test network, if you
+Run with the `-testnet` option to run with "play fuducoins" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the `-regtest` option.
@@ -244,10 +244,10 @@ which includes known Valgrind warnings in our dependencies that cannot be fixed
 in-tree. Example use:
 
 ```shell
-$ valgrind --suppressions=contrib/valgrind.supp src/test/test_litecoin
+$ valgrind --suppressions=contrib/valgrind.supp src/test/test_fuducoin
 $ valgrind --suppressions=contrib/valgrind.supp --leak-check=full \
-      --show-leak-kinds=all src/test/test_litecoin --log_level=test_suite
-$ valgrind -v --leak-check=full src/litecoind -printtoconsole
+      --show-leak-kinds=all src/test/test_fuducoin --log_level=test_suite
+$ valgrind -v --leak-check=full src/fuducoind -printtoconsole
 ```
 
 ### Compiling for test coverage
@@ -263,7 +263,7 @@ To enable LCOV report generation during test runs:
 make
 make cov
 
-# A coverage report will now be accessible at `./test_litecoin.coverage/index.html`.
+# A coverage report will now be accessible at `./test_fuducoin.coverage/index.html`.
 ```
 
 ### Performance profiling with perf
@@ -291,13 +291,13 @@ Make sure you [understand the security
 trade-offs](https://lwn.net/Articles/420403/) of setting these kernel
 parameters.
 
-To profile a running litecoind process for 60 seconds, you could use an
+To profile a running fuducoind process for 60 seconds, you could use an
 invocation of `perf record` like this:
 
 ```sh
 $ perf record \
     -g --call-graph dwarf --per-thread -F 140 \
-    -p `pgrep litecoind` -- sleep 60
+    -p `pgrep fuducoind` -- sleep 60
 ```
 
 You could then analyze the results by running
@@ -818,7 +818,7 @@ In addition to reviewing the upstream changes in `env_posix.cc`, you can use `ls
 check this. For example, on Linux this command will show open `.ldb` file counts:
 
 ```bash
-$ lsof -p $(pidof litecoind) |\
+$ lsof -p $(pidof fuducoind) |\
     awk 'BEGIN { fd=0; mem=0; } /ldb$/ { if ($4 == "mem") mem++; else fd++ } END { printf "mem = %s, fd = %s\n", mem, fd}'
 mem = 119, fd = 0
 ```

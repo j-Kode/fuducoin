@@ -16,7 +16,7 @@ The following are some helpful notes on how to run Fuducoin Core on your native 
 Unpack the files into a directory and run:
 
 - `bin/fuducoin-qt` (GUI) or
-- `bin/litecoind` (headless)
+- `bin/fuducoind` (headless)
 
 ### Windows
 
@@ -31,7 +31,7 @@ Drag Fuducoin Core to your applications folder, and then run Fuducoin Core.
 * See the documentation at the [Fuducoin Wiki](https://fuducoin.info/)
 for help and more information.
 * Ask for help on [#fuducoin](http://webchat.freenode.net?channels=fuducoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=fuducoin).
-* Ask for help on the [FuducoinTalk](https://litecointalk.io/) forums, in the [Technical Support section](https://litecointalk.io/c/technical-support).
+* Ask for help on the [FuducoinTalk](https://fuducointalk.io/) forums, in the [Technical Support section](https://fuducointalk.io/c/technical-support).
 
 Building
 ---------------------
@@ -64,7 +64,7 @@ The Fuducoin repo's [root README](/README.md) contains relevant information on t
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [FuducoinTalk](https://litecointalk.io/) forums.
+* Discuss on the [FuducoinTalk](https://fuducointalk.io/) forums.
 * Discuss general Fuducoin development on #fuducoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=fuducoin-dev.
 
 ### Miscellaneous

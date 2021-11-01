@@ -2,13 +2,13 @@
 
 *.exe
 src/fuducoin
-src/litecoind
+src/fuducoind
 src/fuducoin-cli
 src/fuducoin-tx
 src/fuducoin-wallet
-src/test/test_litecoin
-src/test/test_litecoin_fuzzy
-src/qt/test/test_litecoin-qt
+src/test/test_fuducoin
+src/test/test_fuducoin_fuzzy
+src/qt/test/test_fuducoin-qt
 
 # autoreconf
 Makefile.in
@@ -101,7 +101,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_litecoin.coverage/
+test_fuducoin.coverage/
 total.coverage/
 coverage_percent.txt
 
