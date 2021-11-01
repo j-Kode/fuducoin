@@ -40,7 +40,7 @@ Check out the source code in the following directory hierarchy.
     git clone https://github.com/devrandom/gitian-builder.git
     git clone https://github.com/litecoin-project/litecoin.git
 
-### Litecoin maintainers/release engineers, suggestion for writing release notes
+### Fuducoin maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -114,7 +114,7 @@ NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from 
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Litecoin Core for Linux, Windows, and macOS:
+### Build and sign Fuducoin Core for Linux, Windows, and macOS:
 
     export GITIAN_THREADS=2
     export GITIAN_MEMORY=3000
@@ -282,7 +282,7 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - Update title of #litecoin and #litecoin-dev on Freenode IRC
 
-  - Optionally twitter, reddit /r/Litecoin, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/Fuducoin, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
