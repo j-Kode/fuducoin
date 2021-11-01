@@ -414,7 +414,7 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <source>Request payments (generates QR codes and fuducoin: URIs)</source>
         <translation>Запросить платеж</translation>
     </message>
     <message>
@@ -426,7 +426,7 @@
         <translation>Показать список использованных адресов и меток получателей</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
+        <source>Open a fuducoin: URI or payment request</source>
         <translation>Открыть Fuducoin: URI или запрос платежа</translation>
     </message>
     <message>
@@ -944,7 +944,7 @@
         <translation>Форма</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the fuducoin network, as detailed below.</source>
         <translation>Последние транзакции пока могут быть не видны, поэтому вы можете видеть некорректный баланс ваших кошельков. Отображаемая информация будет верна после завершения синхронизации. Прогресс синхронизации вы можете видеть ниже.</translation>
     </message>
     <message>
@@ -1368,16 +1368,16 @@
         <translation>Ошибка запроса платежа</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Не удаётся запустить litecoin: обработчик click-to-pay</translation>
+        <source>Cannot start fuducoin: click-to-pay handler</source>
+        <translation>Не удаётся запустить fuducoin: обработчик click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Обработка идентификатора</translation>
     </message>
     <message>
-        <source>'litecoin://' is not a valid URI. Use 'litecoin:' instead.</source>
-        <translation>'litecoin://' не верный URI. Используйте 'litecoin:' вместо этого.</translation>
+        <source>'fuducoin://' is not a valid URI. Use 'fuducoin:' instead.</source>
+        <translation>'fuducoin://' не верный URI. Используйте 'fuducoin:' вместо этого.</translation>
     </message>
     <message>
         <source>You are using a BIP70 URL which will be unsupported in the future.</source>
@@ -2231,7 +2231,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Пыль:</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for fuducoin transactions than the network can process.</source>
         <translation>Когда объем транзакций меньше, чем пространство в блоках, майнеры, а также ретранслирующие узлы могут устанавливать минимальную плату. Платить только эту минимальную комиссию - это хорошо, но имейте в виду, что это может привести к тому, что транзакция никогда не будет подтверждена, если будет больше Fuducoin-транзакций, чем может обработать сеть.</translation>
     </message>
     <message>
@@ -2466,8 +2466,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Введите метку для этого адреса, чтобы добавить его в список используемых адресов</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fuducoin network.</source>
-        <translation>Сообщение прикрепленное к litecoin идентификатору будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть Fuducoin.</translation>
+        <source>A message that was attached to the fuducoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fuducoin network.</source>
+        <translation>Сообщение прикрепленное к fuducoin идентификатору будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть Fuducoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>

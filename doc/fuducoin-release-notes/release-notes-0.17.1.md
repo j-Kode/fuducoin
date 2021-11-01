@@ -1,17 +1,17 @@
 Fuducoin Core version 0.17.1 is now available from:
 
-  <https://download.litecoin.org/litecoin-0.17.1/>
+  <https://download.fuducoin.org/fuducoin-0.17.1/>
 
 This is a new major version release, including new features, various bugfixes
 and performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/litecoin-project/litecoin/issues>
+  <https://github.com/fuducoin-project/fuducoin/issues>
 
 To receive security and update notifications, please subscribe to:
 
-  <https://groups.google.com/forum/#!forum/litecoin-dev>
+  <https://groups.google.com/forum/#!forum/fuducoin-dev>
 
 How to Upgrade
 ==============
@@ -19,7 +19,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over `/Applications/Fuducoin-Qt` (on Mac)
-or `litecoind`/`litecoin-qt` (on Linux).
+or `litecoind`/`fuducoin-qt` (on Linux).
 
 If your node has a txindex, the txindex db will be migrated the first time you run 0.17.0 or newer, which may take up to a few hours. Your node will not be functional until this migration completes.
 
@@ -71,7 +71,7 @@ Notable changes
 The `listtransactions` RPC `account` parameter which was deprecated in 0.17.0
 and renamed to `dummy` has been un-deprecated and renamed again to `label`.
 
-When litecoin is configured with the `-deprecatedrpc=accounts` setting, specifying
+When fuducoin is configured with the `-deprecatedrpc=accounts` setting, specifying
 a label/account/dummy argument will return both outgoing and incoming
 transactions. Without the `-deprecatedrpc=accounts` setting, it will only return
 incoming transactions (because it used to be possible to create transactions
@@ -87,7 +87,7 @@ Changed configuration options
 -----------------------------
 
 - `-includeconf=<file>` can be used to include additional configuration files.
-  Only works inside the `litecoin.conf` file, not inside included files or from
+  Only works inside the `fuducoin.conf` file, not inside included files or from
   command-line. Multiple files may be included. Can be disabled from command-
   line via `-noincludeconf`. Note that multi-argument commands like
   `-includeconf` will override preceding `-noincludeconf`, i.e.
@@ -96,7 +96,7 @@ Changed configuration options
   includeconf=relative.conf
   ```
 
-  as litecoin.conf will still include `relative.conf`.
+  as fuducoin.conf will still include `relative.conf`.
 
 GUI changes
 -----------
@@ -127,7 +127,7 @@ same as before.
 Dynamic loading and creation of wallets
 ---------------------------------------
 
-Previously, wallets could only be loaded or created at startup, by specifying `-wallet` parameters on the command line or in the litecoin.conf file. It is now possible to load, create and unload wallets dynamically at runtime:
+Previously, wallets could only be loaded or created at startup, by specifying `-wallet` parameters on the command line or in the fuducoin.conf file. It is now possible to load, create and unload wallets dynamically at runtime:
 
 - Existing wallets can be loaded by calling the `loadwallet` RPC. The wallet can be specified as file/directory basename (which must be located in the `walletdir` directory), or as an absolute path to a file/directory.
 - New wallets can be created (and loaded) by calling the `createwallet` RPC. The provided name must not match a wallet file in the `walletdir` directory or the name of a wallet that is currently loaded.
@@ -154,8 +154,8 @@ It is now possible for a single configuration file to set different
 options for different networks. This is done by using sections or by
 prefixing the option with the network, such as:
 
-    main.uacomment=litecoin
-    test.uacomment=litecoin-testnet
+    main.uacomment=fuducoin
+    test.uacomment=fuducoin-testnet
     regtest.uacomment=regtest
     [main]
     mempoolsize=300
@@ -316,9 +316,9 @@ Low-level RPC changes
    `fee`, `modifiedfee`, `ancestorfee` and `descendantfee`.
 - The new RPC `getzmqnotifications` returns information about active ZMQ
   notifications.
-- When litecoin is not started with any `-wallet=<path>` options, the name of
+- When fuducoin is not started with any `-wallet=<path>` options, the name of
   the default wallet returned by `getwalletinfo` and `listwallets` RPCs is
-  now the empty string `""` instead of `"wallet.dat"`. If litecoin is started
+  now the empty string `""` instead of `"wallet.dat"`. If fuducoin is started
   with any `-wallet=<path>` options, there is no change in behavior, and the
   name of any wallet is just its `<path>` string.
 - Passing an empty string (`""`) as the `address_type` parameter to

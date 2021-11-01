@@ -414,8 +414,8 @@
         <translation>Baris tab</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Permintaan pembayaran (membuat kode QR dan litecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and fuducoin: URIs)</source>
+        <translation>Permintaan pembayaran (membuat kode QR dan fuducoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +426,8 @@
         <translation>Tampilkan daftar alamat dan label yang diterima</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Buka URI litecoin: atau permintaan pembayaran</translation>
+        <source>Open a fuducoin: URI or payment request</source>
+        <translation>Buka URI fuducoin: atau permintaan pembayaran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -916,12 +916,12 @@
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the fuducoin network, as detailed below.</source>
         <translation>Transaksi-transaksi terkini mungkin belum terlihat dan oleh karenanya, saldo dompet Anda mungkin tidak tepat. Informasi ini akan akurat ketika dompet Anda tersinkronisasi dengan jaringan Fuducoin, seperti rincian berikut.</translation>
     </message>
     <message>
         <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Usaha untuk menggunakan litecoin yang dipengaruhi oleh transaksi yang belum terlihat tidak akan diterima oleh jaringan.</translation>
+        <translation>Usaha untuk menggunakan fuducoin yang dipengaruhi oleh transaksi yang belum terlihat tidak akan diterima oleh jaringan.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1151,7 +1151,7 @@
     </message>
     <message>
         <source>Connect to the Fuducoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Koneksi ke jaringan litecoin melalui proxy SOCKS5 yang berbeda untuk layanan Tor tersembunyi.</translation>
+        <translation>Koneksi ke jaringan fuducoin melalui proxy SOCKS5 yang berbeda untuk layanan Tor tersembunyi.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1332,16 +1332,16 @@
         <translation>Terjadi kesalahan pada permintaan pembayaran</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Tidak bisa memulai litecoin: handler click-to-pay</translation>
+        <source>Cannot start fuducoin: click-to-pay handler</source>
+        <translation>Tidak bisa memulai fuducoin: handler click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Pengelolaan URI</translation>
     </message>
     <message>
-        <source>'litecoin://' is not a valid URI. Use 'litecoin:' instead.</source>
-        <translation>'litecoin://' bukanlah alamat URI yang valid. Silakan gunakan 'litecoin:'.</translation>
+        <source>'fuducoin://' is not a valid URI. Use 'fuducoin:' instead.</source>
+        <translation>'fuducoin://' bukanlah alamat URI yang valid. Silakan gunakan 'fuducoin:'.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>

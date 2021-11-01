@@ -1,20 +1,20 @@
 Fuducoin Core version 0.13.2 is now available from:
 
-  <https://download.litecoin.org/litecoin-0.13.2.1/>
+  <https://download.fuducoin.org/fuducoin-0.13.2.1/>
 
 This is a new major version release, including new features, various bugfixes and performance improvements, as well as updated translations.
 It is recommended to upgrade to this version.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/litecoin-project/litecoin/issues>
+  <https://github.com/fuducoin-project/fuducoin/issues>
 
 Compatibility
 ==============
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support),
 an OS initially released in 2001. This means that not even critical security
-updates will be released anymore. Without security updates, using a litecoin
+updates will be released anymore. Without security updates, using a fuducoin
 wallet on a XP machine is irresponsible at least.
 
 In addition to that, with 0.12.x there have been varied reports of Bitcoin Core
@@ -271,7 +271,7 @@ However, rescans as well as the RPCs `importwallet`, `importaddress`,
 `importprivkey` are disabled.
 
 To enable block pruning set `prune=<N>` on the command line or in
-`litecoin.conf`, where `N` is the number of MiB to allot for
+`fuducoin.conf`, where `N` is the number of MiB to allot for
 raw block & undo data.
 
 A value of 0 disables pruning. The minimal value above 0 is 550. Your
@@ -330,7 +330,7 @@ and are affected by this change:
 - RPC `decodescript`
 - REST `/rest/tx/` (JSON format)
 - REST `/rest/block/` (JSON format when including extended tx details)
-- `litecoin-tx -json`
+- `fuducoin-tx -json`
 
 For example, the `scriptSig.asm` property of a transaction input that
 previously showed an assembly representation of:
@@ -415,21 +415,21 @@ For this reason the default was changed to 300 MiB in this release.
 For nodes on low-memory systems, the database cache can be changed back to
 100 MiB (or to another value) by either:
 
-- Adding `dbcache=100` in litecoin.conf
+- Adding `dbcache=100` in fuducoin.conf
 - Changing it in the GUI under `Options → Size of database cache`
 
 Note that the database cache setting has the most performance impact
 during initial sync of a node, and when catching up after downtime.
 
 
-litecoin-cli: arguments privacy
+fuducoin-cli: arguments privacy
 ------------------------------
 
 The RPC command line client gained a new argument, `-stdin`
 to read extra arguments from standard input, one per line until EOF/Ctrl-D.
 For example:
 
-    $ src/litecoin-cli -stdin walletpassphrase
+    $ src/fuducoin-cli -stdin walletpassphrase
     mysecretcode
     120
     ..... press Ctrl-D here to end input
@@ -462,9 +462,9 @@ executables.
 
 The following extra files can be found in the download directory or torrent:
 
-- `litecoin-${VERSION}-arm-linux-gnueabihf.tar.gz`: Linux binaries for the most
+- `fuducoin-${VERSION}-arm-linux-gnueabihf.tar.gz`: Linux binaries for the most
   common 32-bit ARM architecture.
-- `litecoin-${VERSION}-aarch64-linux-gnu.tar.gz`: Linux binaries for the most
+- `fuducoin-${VERSION}-aarch64-linux-gnu.tar.gz`: Linux binaries for the most
   common 64-bit ARM architecture.
 
 ARM builds are still experimental. If you have problems on a certain device or
@@ -751,7 +751,7 @@ Low-level RPC changes
     - RPC `decodescript`
     - REST `/rest/tx/` (JSON format)
     - REST `/rest/block/` (JSON format when including extended tx details)
-    - `litecoin-tx -json`
+    - `fuducoin-tx -json`
 
 - The sorting of the output of the `getrawmempool` output has changed.
 
@@ -942,9 +942,9 @@ Additional detail on the ARM architecture targeted by each is provided below.
 
 The following extra files can be found in the download directory or torrent:
 
-- `litecoin-${VERSION}-arm-linux-gnueabihf.tar.gz`: Linux binaries targeting
+- `fuducoin-${VERSION}-arm-linux-gnueabihf.tar.gz`: Linux binaries targeting
   the 32-bit ARMv7-A architecture.
-- `litecoin-${VERSION}-aarch64-linux-gnu.tar.gz`: Linux binaries targeting
+- `fuducoin-${VERSION}-aarch64-linux-gnu.tar.gz`: Linux binaries targeting
   the 64-bit ARMv8-A architecture.
 
 ARM builds are still experimental. If you have problems on a certain device or

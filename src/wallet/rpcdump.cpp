@@ -718,7 +718,7 @@ UniValue dumpprivkey(const JSONRPCRequest& request)
                 "\nReveals the private key corresponding to 'address'.\n"
                 "Then the importprivkey can be used with this output\n",
                 {
-                    {"address", RPCArg::Type::STR, RPCArg::Optional::NO, "The litecoin address for the private key"},
+                    {"address", RPCArg::Type::STR, RPCArg::Optional::NO, "The fuducoin address for the private key"},
                 },
                 RPCResult{
             "\"key\"                (string) The private key\n"

@@ -410,8 +410,8 @@
         <translation>Orodna vrstica zavihkov</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Zahtevajte plačilo (ustvarite zahtevek s kodo QR in URI tipa litecoin:)</translation>
+        <source>Request payments (generates QR codes and fuducoin: URIs)</source>
+        <translation>Zahtevajte plačilo (ustvarite zahtevek s kodo QR in URI tipa fuducoin:)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -422,8 +422,8 @@
         <translation>Preglejte in uredite seznam naslovov, na katere ste kdaj prejeli plačila</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Izvedite plačilo iz zahtevka v datoteki ali iz URI tipa litecoin:</translation>
+        <source>Open a fuducoin: URI or payment request</source>
+        <translation>Izvedite plačilo iz zahtevka v datoteki ali iz URI tipa fuducoin:</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1287,16 +1287,16 @@
         <translation>Napaka pri zahtevi plačila</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Ni mogoče zagnati rokovalca plačilnih povezav tipa litecoin:.</translation>
+        <source>Cannot start fuducoin: click-to-pay handler</source>
+        <translation>Ni mogoče zagnati rokovalca plačilnih povezav tipa fuducoin:.</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Rokovanje z URI</translation>
     </message>
     <message>
-        <source>'litecoin://' is not a valid URI. Use 'litecoin:' instead.</source>
-        <translation>'litecoin://' ni veljaven URI. Uporabite raje 'litecoin:' .</translation>
+        <source>'fuducoin://' is not a valid URI. Use 'fuducoin:' instead.</source>
+        <translation>'fuducoin://' ni veljaven URI. Uporabite raje 'fuducoin:' .</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
@@ -2205,8 +2205,8 @@
         <translation>Če vnesete oznako za zgornji naslov, se bo skupaj z naslovom shranila v imenk že uporabljenih naslovov</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fuducoin network.</source>
-        <translation>Sporočilo, ki ste ga pripeli na URI tipa litecoin:. Shranjeno bo skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja Fuducoin.</translation>
+        <source>A message that was attached to the fuducoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fuducoin network.</source>
+        <translation>Sporočilo, ki ste ga pripeli na URI tipa fuducoin:. Shranjeno bo skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja Fuducoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>

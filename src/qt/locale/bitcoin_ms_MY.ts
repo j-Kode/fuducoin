@@ -386,7 +386,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>Sign messages with your Fuducoin addresses to prove you own them</source>
-        <translation>sahkan mesej bersama alamat litecoin anda untuk menunjukkan alamat ini anda punya</translation>
+        <translation>sahkan mesej bersama alamat fuducoin anda untuk menunjukkan alamat ini anda punya</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Fuducoin addresses</source>
@@ -410,8 +410,8 @@ Alihkan fail data ke dalam tab semasa</translation>
 </translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Request payments (generates QR codes and litecoin: URIs)
+        <source>Request payments (generates QR codes and fuducoin: URIs)</source>
+        <translation>Request payments (generates QR codes and fuducoin: URIs)
 </translation>
     </message>
     <message>

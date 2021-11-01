@@ -38,7 +38,7 @@
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.litecoin.Fuducoin-Qt</string>
+  <string>org.fuducoin.Fuducoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.litecoin.FuducoinPayment</string>
+      <string>org.fuducoin.FuducoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>litecoin</string>
+        <string>fuducoin</string>
       </array>
     </dict>
   </array>
@@ -58,7 +58,7 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.litecoin.paymentrequest</string>
+      <string>org.fuducoin.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>Fuducoin payment request</string>
       <key>UTTypeConformsTo</key>
@@ -68,7 +68,7 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-litecoin-payment-request</string>
+        <string>application/x-fuducoin-payment-request</string>
         <key>public.filename-extension</key>
         <array>
           <string>litecoinpaymentrequest</string>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.litecoin.paymentrequest</string>
+        <string>org.fuducoin.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

@@ -44,17 +44,17 @@ reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equiv
 config file): *Needed for Tor version 0.2.7.0 and older versions of Tor only. For newer
 versions of Tor see [Section 3](#3-automatically-listen-on-tor).*
 
-	HiddenServiceDir /var/lib/tor/litecoin-service/
+	HiddenServiceDir /var/lib/tor/fuducoin-service/
 	HiddenServicePort 9333 127.0.0.1:9333
 	HiddenServicePort 19335 127.0.0.1:19335
 
 The directory can be different of course, but (both) port numbers should be equal to
 your litecoind's P2P listen port (9333 by default).
 
-	-externalip=X   You can tell litecoin about its publicly reachable address using
+	-externalip=X   You can tell fuducoin about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
 	                configuration, you can find your .onion address in
-	                /var/lib/tor/litecoin-service/hostname. For connections
+	                /var/lib/tor/fuducoin-service/hostname. For connections
 	                coming from unroutable addresses (such as 127.0.0.1, where the
 	                Tor proxy typically runs), .onion addresses are given
 	                preference for your node to advertise itself with.

@@ -414,8 +414,8 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a litecoin: URI)</translation>
+        <source>Request payments (generates QR codes and fuducoin: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a fuducoin: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +426,8 @@
         <translation>Zobraziť zoznam použitých prijímacích adries a ich popisov</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Otvoriť litecoin URI alebo výzvu k platbe</translation>
+        <source>Open a fuducoin: URI or payment request</source>
+        <translation>Otvoriť fuducoin URI alebo výzvu k platbe</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -944,8 +944,8 @@
         <translation>Formulár</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
-        <translation>Nedávne transakcie nemusia byť ešte viditeľné preto môže byť zostatok vo vašej peňaženke nesprávny. Táto informácia bude správna keď sa dokončí synchronizovanie peňaženky so sieťou litecoin, ako je rozpísané nižšie.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the fuducoin network, as detailed below.</source>
+        <translation>Nedávne transakcie nemusia byť ešte viditeľné preto môže byť zostatok vo vašej peňaženke nesprávny. Táto informácia bude správna keď sa dokončí synchronizovanie peňaženky so sieťou fuducoin, ako je rozpísané nižšie.</translation>
     </message>
     <message>
         <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1219,7 +1219,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Zvoľte ako deliť litecoin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
+        <translation>Zvoľte ako deliť fuducoin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1368,7 +1368,7 @@
         <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
+        <source>Cannot start fuducoin: click-to-pay handler</source>
         <translation>Nemôžeme spustiť Fuducoin: obsluha click-to-pay</translation>
     </message>
     <message>
@@ -1376,8 +1376,8 @@
         <translation>URI manipulácia</translation>
     </message>
     <message>
-        <source>'litecoin://' is not a valid URI. Use 'litecoin:' instead.</source>
-        <translation>'litecoin://' je neplatná URI. Použite 'litecoin:'</translation>
+        <source>'fuducoin://' is not a valid URI. Use 'fuducoin:' instead.</source>
+        <translation>'fuducoin://' je neplatná URI. Použite 'fuducoin:'</translation>
     </message>
     <message>
         <source>You are using a BIP70 URL which will be unsupported in the future.</source>
@@ -1499,7 +1499,7 @@
     </message>
     <message>
         <source>Enter a Fuducoin address (e.g. %1)</source>
-        <translation>Zadajte litecoin adresu (napr. %1)</translation>
+        <translation>Zadajte fuducoin adresu (napr. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2236,7 +2236,7 @@ Poznámka: Keďže poplatok je počítaný za bajt, poplatok o hodnote "100 sato
         <translation>Prach:</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for fuducoin transactions than the network can process.</source>
         <translation>Ak je v blokoch menej objemu transakcií ako priestoru, ťažiari ako aj vysielacie uzly, môžu uplatniť minimálny poplatok. Platiť iba minimálny poplatok je v poriadku, ale uvedomte si, že to môže mať za následok transakciu, ktorá sa nikdy nepotvrdí, akonáhle je väčší dopyt po litecoinových transakciách, než dokáže sieť spracovať.</translation>
     </message>
     <message>
@@ -2475,8 +2475,8 @@ Poznámka: Keďže poplatok je počítaný za bajt, poplatok o hodnote "100 sato
         <translation>Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fuducoin network.</source>
-        <translation>Správa ktorá bola pripojená k litecoin: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Fuducoin.</translation>
+        <source>A message that was attached to the fuducoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fuducoin network.</source>
+        <translation>Správa ktorá bola pripojená k fuducoin: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Fuducoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>

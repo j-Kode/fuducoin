@@ -335,7 +335,7 @@
     </message>
     <message>
         <source>Send coins to a Fuducoin address</source>
-        <translation>Στείλε νομίσματα σε μια διεύθυνση litecoin</translation>
+        <translation>Στείλε νομίσματα σε μια διεύθυνση fuducoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -406,8 +406,8 @@
         <translation>Εργαλειοθήκη καρτελών</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις litecoin: )</translation>
+        <source>Request payments (generates QR codes and fuducoin: URIs)</source>
+        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις fuducoin: )</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -418,8 +418,8 @@
         <translation>Προβολή της λίστας των χρησιμοποιημένων διευθύνσεων και ετικετών λήψεως</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Άνοιγμα litecoin: URI αίτησης πληρωμής</translation>
+        <source>Open a fuducoin: URI or payment request</source>
+        <translation>Άνοιγμα fuducoin: URI αίτησης πληρωμής</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1080,8 +1080,8 @@
         <translation>Σφάλμα αίτησης πληρωμής</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Δεν είναι δυνατή η εκκίνηση του litecoin: χειριστής click-to-pay</translation>
+        <source>Cannot start fuducoin: click-to-pay handler</source>
+        <translation>Δεν είναι δυνατή η εκκίνηση του fuducoin: χειριστής click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>

@@ -398,8 +398,8 @@
         <translation>Barra d'eines de les pestanyes</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Sol·licita pagaments (genera codis QR i litecoin: URI)</translation>
+        <source>Request payments (generates QR codes and fuducoin: URIs)</source>
+        <translation>Sol·licita pagaments (genera codis QR i fuducoin: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -410,8 +410,8 @@
         <translation>Mostra la llista d'adreces de recepció i etiquetes utilitzades</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Obre una litecoin: sol·licitud d'URI o pagament</translation>
+        <source>Open a fuducoin: URI or payment request</source>
+        <translation>Obre una fuducoin: sol·licitud d'URI o pagament</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1170,8 +1170,8 @@
         <translation>Error de la sol·licitud de pagament</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>No es pot iniciar litecoin: controlador click-to-pay</translation>
+        <source>Cannot start fuducoin: click-to-pay handler</source>
+        <translation>No es pot iniciar fuducoin: controlador click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2048,8 +2048,8 @@
         <translation>Introduïu una etiqueta per a aquesta adreça per afegir-la a la llista d'adreces utilitzades</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fuducoin network.</source>
-        <translation>Un missatge que s'ha adjuntat al litecoin: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Fuducoin.</translation>
+        <source>A message that was attached to the fuducoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fuducoin network.</source>
+        <translation>Un missatge que s'ha adjuntat al fuducoin: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Fuducoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>

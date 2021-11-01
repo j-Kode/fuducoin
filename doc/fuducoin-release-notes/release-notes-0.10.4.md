@@ -1,6 +1,6 @@
 Fuducoin Core version 0.10.4.0 is now available from:
 
-  <https://download.litecoin.org/litecoin-0.10.4.0/>
+  <https://download.fuducoin.org/fuducoin-0.10.4.0/>
 
 This is a new minor version release, bringing bug fixes, the BIP65
 (CLTV) consensus change, and relay policy preparation for BIP113. It is
@@ -8,7 +8,7 @@ recommended to upgrade to this version as soon as possible.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/litecoin-project/litecoin/issues>
+  <https://github.com/fuducoin-project/fuducoin/issues>
 
 Upgrading and downgrading
 =========================
@@ -19,7 +19,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/Fuducoin-Qt (on Mac) or
-litecoind/litecoin-qt (on Linux).
+litecoind/fuducoin-qt (on Linux).
 
 Downgrade warning
 ------------------

@@ -43,8 +43,8 @@ Build Fuducoin Core
 
 1. Clone the Fuducoin Core source code:
 
-        git clone https://github.com/litecoin-project/litecoin
-        cd litecoin
+        git clone https://github.com/fuducoin-project/fuducoin
+        cd fuducoin
 
 2.  Build Fuducoin Core:
 
@@ -70,9 +70,9 @@ Build Fuducoin Core
 
     or
 
-        cd ~/litecoin/src
+        cd ~/fuducoin/src
         cp litecoind /usr/local/bin/
-        cp litecoin-cli /usr/local/bin/
+        cp fuducoin-cli /usr/local/bin/
 
 Disable-wallet mode
 --------------------
@@ -94,9 +94,9 @@ Before running, you may create an empty configuration file:
 
     mkdir -p "/Users/${USER}/Library/Application Support/Fuducoin"
 
-    touch "/Users/${USER}/Library/Application Support/Fuducoin/litecoin.conf"
+    touch "/Users/${USER}/Library/Application Support/Fuducoin/fuducoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Fuducoin/litecoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Fuducoin/fuducoin.conf"
 
 The first time you run litecoind, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
@@ -107,9 +107,9 @@ You can monitor the download process by looking at the debug.log file:
 Other commands:
 -------
 
-    ./src/litecoind -daemon # Starts the litecoin daemon.
-    ./src/litecoin-cli --help # Outputs a list of command-line options.
-    ./src/litecoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/litecoind -daemon # Starts the fuducoin daemon.
+    ./src/fuducoin-cli --help # Outputs a list of command-line options.
+    ./src/fuducoin-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

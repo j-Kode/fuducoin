@@ -406,8 +406,8 @@
         <translation>Verktøylinje for faner</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Forespør betalinger (genererer QR-koder og litecoin: URIer)</translation>
+        <source>Request payments (generates QR codes and fuducoin: URIs)</source>
+        <translation>Forespør betalinger (genererer QR-koder og fuducoin: URIer)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -418,7 +418,7 @@
         <translation>Vis listen over bruke mottaksadresser og merkelapper</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
+        <source>Open a fuducoin: URI or payment request</source>
         <translation>Åpne en Fuducoin: URI eller betalingsetterspørring</translation>
     </message>
     <message>
@@ -928,12 +928,12 @@
         <translation>Skjema</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
-        <translation>Det kan hende nylige transaksjoner ikke vises enda, og at lommeboksaldoen dermed blir uriktig. Denne informasjonen vil rette seg når synkronisering av lommeboka mot litecoin-nettverket er fullført, som anvist nedenfor.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the fuducoin network, as detailed below.</source>
+        <translation>Det kan hende nylige transaksjoner ikke vises enda, og at lommeboksaldoen dermed blir uriktig. Denne informasjonen vil rette seg når synkronisering av lommeboka mot fuducoin-nettverket er fullført, som anvist nedenfor.</translation>
     </message>
     <message>
         <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Forsøk på å bruke litecoin som er påvirket av transaksjoner som ikke er vist enda godtas ikke av nettverket.</translation>
+        <translation>Forsøk på å bruke fuducoin som er påvirket av transaksjoner som ikke er vist enda godtas ikke av nettverket.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1332,8 +1332,8 @@
         <translation>Feil ved betalingsforespørsel</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Kan ikke starte litecoin: Klikk-og-betal håndterer</translation>
+        <source>Cannot start fuducoin: click-to-pay handler</source>
+        <translation>Kan ikke starte fuducoin: Klikk-og-betal håndterer</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1349,7 +1349,7 @@
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Fuducoin address or malformed URI parameters.</source>
-        <translation>URI kan ikke fortolkes! Dette kan være forårsaket av en ugyldig litecoin-adresse eller feilformede URI-parametre.</translation>
+        <translation>URI kan ikke fortolkes! Dette kan være forårsaket av en ugyldig fuducoin-adresse eller feilformede URI-parametre.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2284,7 +2284,7 @@
     </message>
     <message>
         <source>Warning: Invalid Fuducoin address</source>
-        <translation>Advarsel Ugyldig litecoin-adresse</translation>
+        <translation>Advarsel Ugyldig fuducoin-adresse</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2374,7 +2374,7 @@
         <translation>Skriv inn en merkelapp for denne adressen for å legge den til listen av brukte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fuducoin network.</source>
+        <source>A message that was attached to the fuducoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fuducoin network.</source>
         <translation>En melding som var tilknyttet litecoinen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Fuducoin-nettverket.</translation>
     </message>
     <message>

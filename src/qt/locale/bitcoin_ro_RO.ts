@@ -410,8 +410,8 @@
         <translation>Bara de unelte</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Cereţi plăţi (generează coduri QR şi litecoin-uri: URls)</translation>
+        <source>Request payments (generates QR codes and fuducoin: URIs)</source>
+        <translation>Cereţi plăţi (generează coduri QR şi fuducoin-uri: URls)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -422,8 +422,8 @@
         <translation>Arată lista de adrese pentru primire şi etichetele</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Deschidere litecoin: o adresa URI sau o cerere de plată</translation>
+        <source>Open a fuducoin: URI or payment request</source>
+        <translation>Deschidere fuducoin: o adresa URI sau o cerere de plată</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -888,7 +888,7 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the fuducoin network, as detailed below.</source>
         <translation>Tranzactiile recente pot sa nu fie inca vizibile, de aceea balanta portofelului poate fi incorecta. Aceasta informatie va fi corecta de indata ce portofelul va fi complet sincronizat cu reteaua Fuducoin, asa cum este detaliat mai jos.</translation>
     </message>
     <message>
@@ -1155,7 +1155,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de litecoin.</translation>
+        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de fuducoin.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1215,7 +1215,7 @@
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adresa litecoin pe care aţi specificat-o nu este validă.</translation>
+        <translation>Adresa fuducoin pe care aţi specificat-o nu este validă.</translation>
     </message>
 </context>
 <context>
@@ -1300,7 +1300,7 @@
         <translation>Eroare la cererea de plată</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
+        <source>Cannot start fuducoin: click-to-pay handler</source>
         <translation>Fuducoin nu poate porni: click-to-pay handler</translation>
     </message>
     <message>
@@ -1308,8 +1308,8 @@
         <translation>Gestionare URI</translation>
     </message>
     <message>
-        <source>'litecoin://' is not a valid URI. Use 'litecoin:' instead.</source>
-        <translation>'litecoin://' nu este un URI valid. Folositi 'litecoin:' in loc.</translation>
+        <source>'fuducoin://' is not a valid URI. Use 'fuducoin:' instead.</source>
+        <translation>'fuducoin://' nu este un URI valid. Folositi 'fuducoin:' in loc.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -2288,7 +2288,7 @@ Nota: Cum taxa este calculata per byte, o taxa de "100 satoshi per kB" pentru o 
     </message>
     <message>
         <source>Warning: Invalid Fuducoin address</source>
-        <translation>Atenţie: Adresa litecoin nevalidă!</translation>
+        <translation>Atenţie: Adresa fuducoin nevalidă!</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2331,7 +2331,7 @@ Nota: Cum taxa este calculata per byte, o taxa de "100 satoshi per kB" pentru o 
     </message>
     <message>
         <source>The Fuducoin address to send the payment to</source>
-        <translation>Adresa litecoin către care se face plata</translation>
+        <translation>Adresa fuducoin către care se face plata</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2351,7 +2351,7 @@ Nota: Cum taxa este calculata per byte, o taxa de "100 satoshi per kB" pentru o 
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Taxa va fi scazuta in suma trimisa. Destinatarul va primi mai putini litecoin decat ati specificat in campul sumei trimise. Daca au fost selectati mai multi destinatari, taxa se va imparti in mod egal.</translation>
+        <translation>Taxa va fi scazuta in suma trimisa. Destinatarul va primi mai putini fuducoin decat ati specificat in campul sumei trimise. Daca au fost selectati mai multi destinatari, taxa se va imparti in mod egal.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2378,8 +2378,8 @@ Nota: Cum taxa este calculata per byte, o taxa de "100 satoshi per kB" pentru o 
         <translation>Introduceţi eticheta pentru ca această adresa să fie introdusă în lista de adrese folosite</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fuducoin network.</source>
-        <translation>un mesaj a fost ataşat la litecoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua litecoin.</translation>
+        <source>A message that was attached to the fuducoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fuducoin network.</source>
+        <translation>un mesaj a fost ataşat la fuducoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua fuducoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>

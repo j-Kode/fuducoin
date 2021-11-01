@@ -44,11 +44,11 @@ related to the DNS seed operation.
 If these expectations cannot be satisfied the operator should
 discontinue providing services and contact the active Fuducoin
 Core development team as well as posting on
-[litecoin-dev](https://groups.google.com/forum/#!forum/litecoin-dev).
+[fuducoin-dev](https://groups.google.com/forum/#!forum/fuducoin-dev).
 
 Behavior outside of these expectations may be reasonable in some
 situations but should be discussed in public in advance.
 
 See also
 ----------
-- [litecoin-seeder](https://github.com/pooler/litecoin-seeder) is a reference implementation of a DNS seed.
+- [fuducoin-seeder](https://github.com/pooler/fuducoin-seeder) is a reference implementation of a DNS seed.
